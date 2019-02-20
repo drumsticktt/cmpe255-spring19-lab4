@@ -122,7 +122,7 @@ some_digit2 = [X[29000]] #2
 
 sgd_predict9 = sgd_clf.predict(some_digit)
 knn_predict9 = neigh.predict(some_digit)
-print("Predicting for '9'")
+print("Predicting for 9")
 print("SGD Prediction: {}".format(sgd_predict9[0]))
 print("KNN Prediction: {}".format(knn_predict9[0]))
 
@@ -135,7 +135,7 @@ plt.axis("off")
 
 # In[42]:
 
-print("Predicting for '2'")
+print("Predicting for 2")
 sgd_predict2 = sgd_clf.predict(some_digit2)
 knn_predict2 = neigh.predict(some_digit2)
 print("SGD Prediction: {}".format(sgd_predict2[0]))
